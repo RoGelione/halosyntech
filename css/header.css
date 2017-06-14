@@ -1,0 +1,22 @@
+.logo{
+	float: left;
+	margin-top: 30px;
+}
+
+.logo-word{
+	float: left;
+	margin-top:33px;
+	margin-left: -3px;
+	font: normal normal normal 34px/1.4em raleway,sans-serif;
+	color: #0DB26B;
+}
+.nav{
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.language{
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+}

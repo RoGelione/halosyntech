@@ -1,0 +1,198 @@
+.toShow{
+	height: 656px;
+	width: 100%;
+	margin: 0 auto;overflow: hidden;
+}
+.news{
+	height: 121px;
+	width:100%;
+	background: darkviolet;
+}
+.wel{
+	height: 387px;
+	width:100%;
+}
+.sImg{
+	height: 100%;
+	width: 300%;
+	position: relative;
+	z-index: -1;
+}
+.img1{
+	float: left;
+	height: 100%;
+	width: 33.33%;
+	background: url(../img/3b1f25_c8a1345e949a44ffbfa2b61a2569a28f.jpg);
+	/*background-repeat: no-repeat;*/
+}
+.img2{
+	float: left;	
+	height: 100%;
+	width: 33.33%;
+	background: url(../img/3b1f25_d6aeb137f2ce4a4fb5af06fbba6a47b5.jpg);
+	/*background-repeat: no-repeat;*/
+}
+.img3{
+	float: right;
+	height: 100%;
+	width: 33.33%;
+	background: url(../img/3b1f25_ec725068e92c4af5bad7df271d651a49.jpg);
+	/*background-repeat: no-repeat;*/
+}
+/*圆点，手动换图*/
+#yuandian{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	bottom: 50px;
+	z-index: 2;
+}
+#yuandian .open {
+	background: pink;
+	width: 20px;
+}
+#yuandian li{
+	border-radius: 40px;
+	position: relative;
+	left: 45%;
+	cursor: pointer;
+	background: white;
+	float: left;
+	margin-left: 10px;
+	width: 10px;
+	height: 10px;
+}
+/*病型介绍*/
+.ill{
+	width: 980px;
+	height: 290px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 1;
+	bottom: 350px;
+	opacity: 50;
+}
+.ill1,.ill2,.ill3{
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+	background: deepskyblue;	
+}
+.ill1{	
+	height: 283px;opacity: 0.6;	
+}
+.ill2{	
+	height: 263px;opacity: 0.7;
+}
+.ill3{	
+	height: 243px;opacity: 0.8;	
+}
+.font_6{
+	position:relative;
+	font:normal normal normal 22px/1.4em raleway,sans-serif;
+	color: white;opacity: 1;	
+}
+.illname{
+	position:relative;
+	margin-top: 30px;
+	margin-left: 30px;
+	
+}
+.illcontent{
+	position:relative;
+	margin-top: 20px;
+	margin-left: 30px;
+	color: white;
+}
+.illcontent a{
+	color: white;
+}
+.illmore{
+	width: 107px;
+	height: 41px;
+	background: darkturquoise;
+	position:relative;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.illmore:hover{
+	background: blue;
+}
+.font_center{
+	position:relative;	
+	top: 10px;
+	left: 20px;
+	font-size: 12px;
+	color: white;
+	opacity: 99;
+}
+/*最新动态+预约*/
+.zuixin{
+	position: relative;
+	top: 35px;
+	left:20px;
+	width: 240px;
+	font-size: 34px;
+	color:white;
+}
+.yuyue{
+	width: 232px;
+	height: 37px;
+	position: relative;
+	left:740px;
+	background: orchid;	
+}
+.yuyue span{
+	position: relative;
+	top: 8px;
+	left: 90px;
+}
+.yuyue:hover{
+	background: lavender;
+}
+/*展位*/
+.wel_title{
+	position: relative;
+	top: 50px;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+}
+.demo1,.demo2,.demo3{
+	width: 290px;
+	height: 171px;	
+	float: left;
+	margin-top:140px;	
+}
+.demo2,.demo3{
+	margin-left: 55px;
+}
+.demo_tu{
+	height: 77px;
+	width: 76px;
+	margin-left:105px ;
+}
+.demo_add{
+	width: 100%;
+	height:26px;
+	margin-top: 14px;
+	color:#0DB26B;
+	text-align: center;
+	font: normal normal normal 26px raleway,sans-serif;
+}
+.demo_date{
+	width: 100%;
+	height:18px;
+	margin-top: 14px;
+    color: #A0A09F;
+    text-align: center;
+    font: normal normal normal 15px/1.4em raleway,sans-serif;
+    
+}
+.demo_booth{
+	width: 100%;
+	height:18px;
+	text-align: center;
+	 color: #A0A09F;
+	 font: normal normal normal 15px/1.4em raleway,sans-serif;
+	 }

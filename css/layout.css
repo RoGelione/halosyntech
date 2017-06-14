@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family:SimSun;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.header{
+	height: 90px;
+	width: 100%;
+}
+.content{
+	height: 1164px;
+	width: 100%;
+
+}
+.footer{
+	width: 100%;
+	height: 317px;
+}
+.h-c,.news-c,.wel-c,.more-c,.info-c{
+	height: 100%;
+	width: 980px;
+	margin: 0 auto;
+}
+

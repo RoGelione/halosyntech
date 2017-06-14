@@ -1,0 +1,43 @@
+/*更多详情*/
+.more{
+	height: 202px;
+	width: 100%;
+	background: ghostwhite;
+}.more_title{
+	position: relative;
+	top: 85px;
+	width: 100%;
+	font-size: 34px;
+	text-align: center;
+	color: #0DB26B;
+}
+.more_add{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:125px ;
+	color: gray;
+	font: normal normal normal 15px/1.4em raleway,sans-serif;
+	cursor: pointer;
+}
+/*版权*/
+.info{
+	height: 115px;
+	width: 100%;
+	background: deepskyblue;
+}
+.banquan{
+	position: relative;
+	padding-top: 50px;
+	color: white;
+}
+.info_url img{
+	position: relative;
+	height: 29px;
+	width: 29px;
+}
+.info_1_img{
+	margin-left: 852px;
+}
